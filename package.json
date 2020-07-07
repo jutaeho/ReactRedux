@@ -1,0 +1,27 @@
+{
+  "name": "ReactRedux",
+  "version": "1.0.0",
+  "description": "Study react and redux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jutaeho/ReactRedux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jutaeho/ReactRedux/issues"
+  },
+  "homepage": "https://github.com/jutaeho/ReactRedux#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0"
+  }
+}
