@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div>Hello React Redux</div>
-        )
-    }
-}
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
+import TodoApp from './TodoApp';
 
 let root = document.createElement('div');
 root.id = 'root';
 
 document.body.appendChild(root);
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(
+    <Provider store={store}>
+        <TodoApp/>
+    </Provider>, 
+    document.getElementById('root')
+);
